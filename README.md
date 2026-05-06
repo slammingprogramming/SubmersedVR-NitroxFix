@@ -14,7 +14,7 @@ Grab the latest release from the [Releases page](https://github.com/TheGeeks0424
 
 Install these first; this mod does not bundle them.
 
-- **Subnautica** (tested against build 1.22.83031)
+- **Subnautica** (Subnautica 2025 Patch)
 - **BepInEx 5** at the game root
 - **Nitrox 1.8.1** (via Nitrox.Launcher)
 - **SubmersedVR 0.2.0** (`BepInEx/plugins/SubmersedVR.dll`)
