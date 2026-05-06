@@ -1,6 +1,6 @@
 # BuddySystem
 
-Compatibility bridge between [Nitrox](https://nitrox.rux.gg/) (Subnautica multiplayer) and [SubmersedVR](https://www.nexusmods.com/subnautica/mods/859) so the two finally coexist — play Subnautica multiplayer in VR.
+Compatibility bridge between [Nitrox](https://nitrox.rux.gg/) (Subnautica multiplayer) and [SubmersedVR](https://github.com/Okabintaro/SubmersedVR) so the two finally coexist — play Subnautica multiplayer in VR.
 
 Ships as the `NitroxVrCompat` BepInEx plugin, plus a basic diver body + contextual animations bundle.
 
