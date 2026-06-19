@@ -1,41 +1,76 @@
 ---
 name: Bug report
-about: Report a problem with BuddySystem
-title: ''
+about: Report a reproducible SubmersedVR-NitroxFix problem
+title: "[Bug]: "
 labels: bug
-assignees: ''
+assignees: ""
 ---
 
-## Known issues — please check before opening
+## Before Opening
 
-- **Cannot exit the Seamoth.** Known bug, already on our list — please don't open a new issue for it. Comment on the existing tracking issue if you have a fresh repro or workaround.
+Please check these first:
 
-## Describe the bug
+- [Known Issues](../../docs/KNOWN_ISSUES.md)
+- [Troubleshooting](../../docs/TROUBLESHOOTING.md)
+- [Compatibility](../../docs/COMPATIBILITY.md)
+- [FAQ](../../docs/FAQ.md)
+
+## Describe The Bug
 
 A short, clear description of what went wrong.
 
-## Steps to reproduce
+## Steps To Reproduce
 
-1. ...
-2. ...
-3. ...
+1. 
+2. 
+3. 
 
-## Expected behavior
+## Expected Behavior
 
-What you thought would happen instead.
+What you expected to happen instead.
 
-## Diagnostics
+## Actual Behavior
 
-Press **F11** in-game to dump a diagnostic snapshot to `BepInEx/LogOutput.log`, then paste (or attach) the relevant section. Logs from just before and just after the bug are the most useful.
+What happened instead, including any error messages.
+
+## Logs
+
+Press `F11` in-game to generate a diagnostic snapshot, then attach or paste the relevant section from:
+
+```text
+BepInEx/LogOutput.log
+```
+
+Logs from just before and just after the bug are the most useful.
 
 ## Versions
 
-- BuddySystem / NitroxVrCompat: 
-- Nitrox: 
-- SubmersedVR: 
-- BepInEx: 
-- Subnautica build: 
+- SubmersedVR-NitroxFix / `NitroxVRCompat`:
+- Nitrox:
+- SubmersedVR:
+- BepInEx:
+- Subnautica build:
+- SteamVR:
 
-## Additional context
+## Hardware And Runtime
 
-Anything else worth knowing — VR headset model, host vs. client, save state, other mods installed, etc.
+- VR headset:
+- Controller type:
+- Runtime used:
+- Connection method, if applicable:
+- Storefront, Steam/Epic/Game Pass/etc:
+
+## Multiplayer Context
+
+- Host or client:
+- Server type, dedicated/self-hosted:
+- Other players using VR:
+- Other mods installed:
+
+## Screenshots Or Video
+
+Attach screenshots or short clips if they help explain the problem.
+
+## Additional Context
+
+Anything else worth knowing, such as save state, in-game location, vehicle/base state, or workarounds you tried.
