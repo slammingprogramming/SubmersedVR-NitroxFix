@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the documentation
+    url: https://github.com/slammingprogramming/SubmersedVR-NitroxFix/tree/main/docs
+    about: Start with installation, troubleshooting, compatibility, known issues, and FAQ.
+  - name: Check releases
+    url: https://github.com/slammingprogramming/SubmersedVR-NitroxFix/releases
+    about: Download packaged builds and release notes.
