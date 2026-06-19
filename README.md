@@ -1,33 +1,63 @@
-# BuddySystem
+# SubmersedVR-NitroxFix
 
-Compatibility bridge between [Nitrox](https://nitrox.rux.gg/) (Subnautica multiplayer) and [SubmersedVR](https://github.com/Okabintaro/SubmersedVR) so the two finally coexist — play Subnautica multiplayer in VR.
+Compatibility bridge between Nitrox Multiplayer and SubmersedVR.
 
-Ships as the `NitroxVrCompat` BepInEx plugin, plus a basic diver body + contextual animations bundle.
+This project allows SubmersedVR and Nitrox to run together, enabling multiplayer Subnautica in VR.
 
-By Connor and Zach — Geeks and Me LLC.
+The project ships as the `NitroxVRCompat` BepInEx plugin and includes a basic diver avatar and contextual animation system.
+
+Created by Connor and Zach (Geeks and Me LLC).
+
+## Features
+
+* Play Nitrox multiplayer in VR
+* Compatible with SubmersedVR
+* Diver body representation
+* Contextual player animations
+* Diagnostic logging and troubleshooting tools
+
+## Requirements
+
+Before installing, make sure the following are installed:
+
+* Subnautica (2025 Patch)
+* BepInEx 5
+* Nitrox 1.8.1 or newer
+* SubmersedVR 0.2.0
+
+## Installation
+
+See:
+
+* [Installation Guide](docs/INSTALLATION.md)
+* [Troubleshooting](docs/TROUBLESHOOTING.md)
+* [Known Issues](docs/KNOWN_ISSUES.md)
+* [FAQ](docs/FAQ.md)
 
 ## Download
 
-Grab the latest release from the [Releases page](https://github.com/TheGeeks0424/BuddySystem/releases).
-
-## Prerequisites
-
-Install these first; this mod does not bundle them.
-
-- **Subnautica** (Subnautica 2025 Patch)
-- **BepInEx 5** at the game root
-- **Nitrox 1.8.1** (via Nitrox.Launcher)
-- **SubmersedVR 0.2.0** (`BepInEx/plugins/SubmersedVR.dll`)
-
-## Install
-
-Extract the release zip into your Subnautica install root — the folder that contains `Subnautica.exe`. The directory tree inside the zip mirrors the game's, so the files land in the right places:
-
-- `BepInEx/plugins/NitroxVrCompat/NitroxVrCompat.dll`
-- `BepInEx/plugins/NitroxVrCompat/NitroxVrCompat.pdb`
-- `BepInEx/plugins/NitroxVrCompat/playeravatar`
-- `Subnautica_Data/Managed/Valve.Newtonsoft.Json.dll`
+Download the latest release from the Releases page.
 
 ## Usage
 
-Launch via Nitrox.Launcher with your VR headset connected. Press **F11** in-game to dump a diagnostic snapshot to `BepInEx/LogOutput.log`. The hotkey is configurable in `BepInEx/config/com.csore.nitroxvrcompat.cfg`, which is auto-generated on first run.
+Launch the game through Nitrox Launcher with your VR headset connected.
+
+Press F11 to generate a diagnostic report in:
+
+BepInEx/LogOutput.log
+
+The hotkey can be changed in:
+
+BepInEx/config/com.csore.nitroxvrcompat.cfg
+
+## Support
+
+If you encounter issues, include:
+
+* Subnautica version
+* Nitrox version
+* SubmersedVR version
+* VR headset model
+* BepInEx logs
+
+when reporting bugs.
