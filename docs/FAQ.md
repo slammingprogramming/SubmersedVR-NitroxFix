@@ -1,149 +1,102 @@
 # Frequently Asked Questions
 
-## What is SubmersedVR-NitroxFix?
+Related docs: [Installation](INSTALLATION.md), [Compatibility](COMPATIBILITY.md), [Troubleshooting](TROUBLESHOOTING.md), [Known Issues](KNOWN_ISSUES.md)
 
-SubmersedVR-NitroxFix is a compatibility bridge that allows Nitrox multiplayer and SubmersedVR to run together.
+## What Is SubmersedVR-NitroxFix?
 
-This enables multiplayer Subnautica in VR.
+SubmersedVR-NitroxFix is a compatibility bridge that allows Nitrox multiplayer and SubmersedVR to run together, enabling multiplayer Subnautica in VR.
 
----
+## Do All Players Need VR?
 
-## Do all players need VR?
+No. VR and flatscreen players can play together on the same Nitrox server.
 
-No.
+## Does This Work With Nitrox?
 
-VR and flatscreen players can play together on the same Nitrox server.
+Yes. The mod was created specifically to bridge Nitrox and SubmersedVR. Nitrox 1.8.1 or newer is required.
 
----
+## Does This Work With SubmersedVR?
 
-## Does this work with Nitrox?
+Yes. SubmersedVR is required.
 
-Yes.
+## Does This Work In Multiplayer?
 
-The mod was created specifically to bridge Nitrox and SubmersedVR.
+Yes. Multiplayer is the primary purpose of the project.
 
----
+## Does This Work With Quest Headsets?
 
-## Does this work with SubmersedVR?
+Generally yes, but support varies by headset, runtime, and connection method. Quest users typically connect through SteamVR using Steam Link, Air Link, or Virtual Desktop.
 
-Yes.
+See [Meta Quest Headsets](COMPATIBILITY.md#meta-quest-headsets) for current setup notes.
 
-SubmersedVR is required.
+## Does This Work With Quest 3 Controllers?
 
----
+Results are currently mixed. Some users report full functionality while others report controller input issues.
 
-## Does this work in multiplayer?
+See [Quest 3 Motion Controllers May Not Function](KNOWN_ISSUES.md#quest-3-motion-controllers-may-not-function).
 
-Yes.
+## Do I Need SteamVR?
 
-Multiplayer is the primary purpose of the project.
+Yes. SteamVR is currently required, and the recommended launch argument is:
 
----
+```text
+-vrmode openvr
+```
 
-## Does this work with Quest headsets?
+See the [installation guide](INSTALLATION.md#step-6---configure-nitrox).
 
-Generally yes.
+## Do I Need BepInEx?
 
-Quest users typically connect through SteamVR using:
+Yes. BepInEx 5 must be installed before installing this project.
 
-- Steam Link
-- Air Link
-- Virtual Desktop
+## Do I Need Nitrox?
 
----
+Yes. Nitrox provides multiplayer functionality.
 
-## Does this work with Quest 3 controllers?
+## Do I Need SubmersedVR?
 
-Results are currently mixed.
+Yes. SubmersedVR provides the VR functionality.
 
-Some users report full functionality while others report controller input issues.
+## Does This Work With The Epic Games Version?
 
-See the Known Issues page for current information.
+Currently unverified. Most community testing has been performed using the Steam version of Subnautica.
 
----
+If you test another storefront, please submit a [compatibility report](../.github/ISSUE_TEMPLATE/compatibility_report.md).
 
-## Do I need SteamVR?
+## Can I Play With An Xbox Controller?
 
-Yes.
+Yes. Many users successfully play using an Xbox controller while using a VR headset.
 
-SteamVR is currently required.
+## Can I Use VR Motion Controls?
 
----
+Usually yes. However, some users have reported issues with Quest controller support.
 
-## Do I need BepInEx?
+See [Controller Compatibility](COMPATIBILITY.md#controller-compatibility).
 
-Yes.
+## Can Flatscreen Players Join VR Players?
 
-BepInEx 5 must be installed before installing this project.
+Yes. VR players and flatscreen players can connect to the same Nitrox server.
 
----
-
-## Do I need Nitrox?
-
-Yes.
-
-Nitrox provides multiplayer functionality.
-
----
-
-## Do I need SubmersedVR?
-
-Yes.
-
-SubmersedVR provides the VR functionality.
-
----
-
-## Does this work with the Epic Games version?
-
-Currently unverified.
-
-Most community testing has been performed using the Steam version of Subnautica.
-
----
-
-## Can I play with an Xbox controller?
-
-Yes.
-
-Many users successfully play using an Xbox controller while using a VR headset.
-
----
-
-## Can I use VR motion controls?
-
-Usually yes.
-
-However, some users have reported issues with Quest controller support.
-
----
-
-## Can flatscreen players join VR players?
-
-Yes.
-
-VR players and flatscreen players can connect to the same Nitrox server.
-
----
-
-## Where are logs stored?
+## Where Are Logs Stored?
 
 Logs can be found at:
 
+```text
 BepInEx/LogOutput.log
+```
 
-You can also press F11 in-game to generate a diagnostic snapshot.
+You can also press `F11` in-game to generate a diagnostic snapshot.
 
----
+## How Do I Report A Bug?
 
-## How do I report a bug?
+Use the [bug report template](../.github/ISSUE_TEMPLATE/bug_report.md) and include:
 
-Please include:
-
-- Subnautica version
-- Nitrox version
-- SubmersedVR version
-- VR headset model
-- SteamVR version
-- BepInEx logs
-- Steps to reproduce the issue
+- Subnautica version.
+- Nitrox version.
+- SubmersedVR version.
+- SubmersedVR-NitroxFix version.
+- BepInEx version.
+- SteamVR version.
+- VR headset model.
+- Controller type.
+- BepInEx logs.
+- Steps to reproduce the issue.
